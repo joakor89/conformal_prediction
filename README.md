@@ -38,6 +38,27 @@ Section 7: Conformal Prediction for Regression
 
 Section 8: Conformal Prediction for Time Series & Forecasting
 
+When installing and using neuralprophet, especially in environments with custom Python or CUDA configurations, several common issues may occur. Below are the problems encountered and how we resolved them:
+
+a) Cause: torchvision was compiled against a different version of torch or a mismatched CUDA version.
+
+    Solution: Reinstall torchvision from the exact same CUDA version index as your installed torch. For example, with torch==2.6.0+cu124:
+
+b) Cause: Either plotly is not installed or the installed version is incompatible or not properly loaded in the current kernel.
+
+    Solution: Install a known compatible version and restart the runtime:
+
+c) Recommended Versions for Smooth Setup
+
+```sh
+pip install neuralprophet==0.9.0
+pip install torch==2.6.0+cu124
+pip install torchvision==0.17.0+cu124
+pip install plotly==5.14.1
+ipywidgets
+--index-url https://download.pytorch.org/whl/cu124
+```
+
 Section 9: Conformal Prediction for Computer Vision
 
 Section 10: Conformal Prediction for Natural Language Processing
