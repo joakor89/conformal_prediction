@@ -1,0 +1,6 @@
+
+ipywidgets
+torch==2.6.0
+torchvision==0.21.0
+plotly==5.15.0
+neuralprophet
