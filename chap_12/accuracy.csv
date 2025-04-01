@@ -1,0 +1,9 @@
+,uncalibrated,Platt,Isotonic,Platt-CV,Isotonic-CV,IVAP,CVAP
+Naive Bayes,0.804,0.806,0.826,0.806,0.822,0.11,0.11
+Logistic Regression,0.858,0.802,0.836,0.8,0.814,0.086,0.086
+Random Forest Classifier,0.906,0.902,0.908,0.906,0.918,0.2,0.2
+AdaBoost Classifier,0.758,0.628,0.746,0.724,0.78,0.11,0.11
+CatBoost Classifier,0.92,0.908,0.894,0.916,0.918,0.11,0.11
+SVC,0.896,0.894,0.886,0.894,0.89,0.086,0.086
+LGBM Classifier,0.93,0.922,0.918,0.924,0.93,0.2,0.2
+XGBoost Classifier,0.916,0.918,0.908,0.924,0.922,0.2,0.2
